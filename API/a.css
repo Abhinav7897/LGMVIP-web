@@ -1,0 +1,82 @@
+body{
+    margin: 0%;
+    padding: 0%;
+  }
+  .container1{
+    background-color: red;
+    height: 120px;
+    margin-bottom: 1.5em;
+  
+  }
+  .text1{
+    text-align: center;
+    font-size:  25px;
+    color: white;
+    padding-top: 2%;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+  
+  }
+  #button{
+    border-radius: 4px;
+    height: 47px;
+    float: right;
+    width: 10%;
+    background-color: #bbb;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+  
+  }
+  .ID{
+    font-weight: bold;
+  }
+  #data{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .data1{
+    width: 20%;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.712);
+    padding: 1.2em;
+    margin-bottom: 2.1em;
+  }
+  .ID{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;;
+  
+  }
+  .email{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    text-transform: lowercase;
+  
+  }
+  .firstname,.lastname{
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .pictures{
+    width: 100%;
+  
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    visibility: hidden;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } 
